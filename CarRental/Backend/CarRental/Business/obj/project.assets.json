@@ -6932,11 +6932,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\sahin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Business\\obj\\",
+      "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -6957,11 +6957,11 @@
         "netcoreapp2.1": {
           "targetAlias": "netcoreapp2.1",
           "projectReferences": {
-            "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Entities\\Entities.csproj"
+            "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Entities\\Entities.csproj"
             }
           }
         }

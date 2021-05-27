@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Entities\\Entities.csproj": {}
+    "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Core\\Core.csproj": {
+    "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Core\\obj\\",
+        "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -97,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Entities\\Entities.csproj": {
+    "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\sahin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -125,8 +125,8 @@
           "netcoreapp2.1": {
             "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Core\\Core.csproj"
+              "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Core\\Core.csproj"
               }
             }
           }

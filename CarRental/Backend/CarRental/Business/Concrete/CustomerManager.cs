@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using Core.Aspects.Autofac.Caching;
+using Entities.DTOs;
 
 namespace Business.Concrete
 {
@@ -30,6 +31,16 @@ namespace Business.Concrete
             }
 
             return new SuccessDataResult<List<Customer>>(_customerDal.GetAll());
+        }
+        [CacheAspect(10)]
+        public IDataResult<List<CustomerDetailDto>> GetCustomerDetails()
+        {
+            if (DateTime.Now.Hour == ConstantValues.ServerMaintenanceHour)
+            {
+                return new ErrorDataResult<List<CustomerDetailDto>>(Messages.MaintenanceTime);
+            }
+
+            return new SuccessDataResult<List<CustomerDetailDto>>(_customerDal.GetCustomerDetails());
         }
 
         [CacheAspect(10)]

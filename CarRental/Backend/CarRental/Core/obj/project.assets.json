@@ -5219,11 +5219,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\sahin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Core\\obj\\",
+      "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

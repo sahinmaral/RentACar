@@ -29,6 +29,12 @@ namespace WebAPI.Controllers
             return GetResponseByResult(_customerService.GetAll());
         }
 
+        [HttpGet("getcustomerdetails")]
+        public IActionResult GetCustomerDetails()
+        {
+            return GetResponseByResult(_customerService.GetCustomerDetails());
+        }
+
         [HttpGet("getbyid")]
         public IActionResult GetById(int id)
         {

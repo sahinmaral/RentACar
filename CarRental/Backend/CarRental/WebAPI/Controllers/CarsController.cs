@@ -30,6 +30,12 @@ namespace WebAPI.Controllers
             return GetResponseByResult(_carService.GetAll());
         }
 
+        [HttpGet("getcardetails")]
+        public IActionResult GetCarDetails()
+        {
+            return GetResponseByResult(_carService.GetCarDetails());
+        }
+
         [HttpGet("getbyid")]
         public IActionResult GetById(int id)
         {

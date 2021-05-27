@@ -138,3 +138,17 @@ C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\SoftwareDeveloperCampB
 C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\SoftwareDeveloperCampByEnginDemirog\Day15Homework1\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.csproj.CopyComplete
 C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\SoftwareDeveloperCampByEnginDemirog\Day15Homework1\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.dll
 C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\SoftwareDeveloperCampByEnginDemirog\Day15Homework1\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.pdb
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\bin\Debug\netcoreapp2.1\DataAccess.deps.json
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\bin\Debug\netcoreapp2.1\DataAccess.dll
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\bin\Debug\netcoreapp2.1\DataAccess.pdb
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\bin\Debug\netcoreapp2.1\Core.dll
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\bin\Debug\netcoreapp2.1\Core.pdb
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.AssemblyInfo.cs
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.csproj.CopyComplete
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.dll
+C:\Users\sahin\OneDrive\Desktop\TotalFiles\GithubProjects\RentACar\CarRental\Backend\CarRental\DataAccess\obj\Debug\netcoreapp2.1\DataAccess.pdb

@@ -8161,11 +8161,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\WebAPI\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\sahin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\WebAPI\\obj\\",
+      "outputPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -8186,8 +8186,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\SoftwareDeveloperCampByEnginDemirog\\Day15Homework1\\CarRental\\Business\\Business.csproj"
+            "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\sahin\\OneDrive\\Desktop\\TotalFiles\\GithubProjects\\RentACar\\CarRental\\Backend\\CarRental\\Business\\Business.csproj"
             }
           }
         }

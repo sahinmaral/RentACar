@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using Core.Aspects.Autofac.Caching;
+using Entities.DTOs;
 
 namespace Business.Concrete
 {
@@ -32,6 +33,17 @@ namespace Business.Concrete
             }
 
             return new SuccessDataResult<List<Rental>>(_rentalDal.GetAll());
+        }
+
+        [CacheAspect(10)]
+        public IDataResult<List<RentalDetailDto>> GetRentalDetails()
+        {
+            if (DateTime.Now.Hour == ConstantValues.ServerMaintenanceHour)
+            {
+                return new ErrorDataResult<List<RentalDetailDto>>(Messages.MaintenanceTime);
+            }
+
+            return new SuccessDataResult<List<RentalDetailDto>>(_rentalDal.GetRentalDetails());
         }
 
         [CacheAspect(10)]
