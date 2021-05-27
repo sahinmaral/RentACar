@@ -1,0 +1,21 @@
+<div class="spinner-border m-2" role="status" *ngIf="dataLoaded==false">
+  <span class="visually-hidden">Loading...</span>
+</div>
+<table class="table" *ngIf="dataLoaded==true">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Müşteri Adı</th>
+        <th scope="col">Müşteri Soyadı</th>
+        <th scope="col">Şirket adı</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let customer of customers">
+        <td>{{customer.id}}</td>
+        <td>{{customer.firstName}}</td>
+        <td>{{customer.lastName}}</td>
+        <td>{{customer.companyName}}</td>
+      </tr> 
+    </tbody>
+  </table>
