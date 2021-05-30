@@ -1,9 +1,9 @@
-﻿using System;
-using Core.Utilities.Results;
+﻿using Core.Utilities.Results;
 
 using Entities.Concrete;
 using Entities.DTOs;
 
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
@@ -18,5 +18,10 @@ namespace Business.Abstract
         IResult Update(Car entity);
         IResult Delete(Car entity);
         IDataResult<List<CarDetailDto>> GetCarDetails();
+        IDataResult<List<CarDetailDto>> GetCarsByBrands(int brandId);
+        IDataResult<List<CarDetailDto>> GetCarsByColours(int colourId);
+        IDataResult<List<CarDetailDto>> GetCarsByBrandsAndColours(int brandId,int colourId);
+        IDataResult<List<CarDetailDto>> GetCarDetailsByCarId(int carId);
+        
     }
 }

@@ -12,6 +12,8 @@ namespace Business.Abstract
     {
         IDataResult<List<CarImages>> GetAll();
         IDataResult<CarImages> Get(Expression<Func<CarImages, bool>> filter);
+        IDataResult<List<CarImages>> GetList(int carId);
+        IDataResult<CarImages> GetByCarId(int entityId);
         IDataResult<CarImages> GetById(int entityId);
         IResult Insert(IFormFile file,CarImages entity);
         IResult Update(IFormFile file,CarImages entity);

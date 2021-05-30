@@ -43,6 +43,18 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<CarImages>(_carImagesDal.Get(filter), Messages.SuccessfullyRetrieved);
         }
+
+        [CacheAspect(10)]
+        public IDataResult<List<CarImages>> GetList(int carId)
+        {
+            return new SuccessDataResult<List<CarImages>>(_carImagesDal.GetAll(x=>x.CarId==carId), Messages.SuccessfullyRetrieved);
+        }
+        [CacheAspect(10)]
+        public IDataResult<CarImages> GetByCarId(int carId)
+        {
+            return new SuccessDataResult<CarImages>(_carImagesDal.Get(x => x.CarId == carId));
+        }
+
         [CacheAspect(10)]
         public IDataResult<CarImages> GetById(int carImageId)
         {

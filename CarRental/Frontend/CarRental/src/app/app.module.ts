@@ -11,7 +11,7 @@ import { NaviComponent } from './components/navi/navi.component';
 import { RouterModule, Routes , Route} from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { ColourComponent } from './components/colour/colour.component';
-import { CommonModule } from '@angular/common';
+import { CarDetailComponent } from './components/car/car-detail/car-detail.component';
 
 
 @NgModule({
@@ -22,7 +22,8 @@ import { CommonModule } from '@angular/common';
     BrandComponent,
     CustomerComponent,
     NaviComponent,
-    ColourComponent
+    ColourComponent,
+    CarDetailComponent
   ],
   imports: [
     BrowserModule,

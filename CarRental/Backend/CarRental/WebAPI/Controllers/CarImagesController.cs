@@ -1,14 +1,13 @@
-﻿using System;
-using System.Security.Cryptography.X509Certificates;
-using Business.Abstract;
-using Core.Utilities.Helpers;
+﻿using Business.Abstract;
+
 using Core.Utilities.Results;
 
 using Entities.Concrete;
 
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+
+using System;
 
 namespace WebAPI.Controllers
 {
@@ -33,11 +32,12 @@ namespace WebAPI.Controllers
             return GetResponseByResult(_carImagesService.GetAll());
         }
 
-        [HttpGet("getbyid")]
-        public IActionResult GetById(int id)
+        [HttpGet("getbycarid")]
+        public IActionResult GetByCarId(int carId)
         {
-            return GetResponseByResult(_carImagesService.GetById(id));
+            return GetResponseByResult(_carImagesService.GetList(carId));
         }
+
 
         [HttpPost("add")]
         public IActionResult Add([FromForm(Name = "Image")] IFormFile file, [FromForm] CarImages carImages)

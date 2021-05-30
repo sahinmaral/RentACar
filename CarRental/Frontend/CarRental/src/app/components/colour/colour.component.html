@@ -1,18 +1,31 @@
-<div class="spinner-border m-2" role="status" *ngIf="dataLoaded==false">
-  <span class="visually-hidden">Loading...</span>
+
+
+<div class="accordion-item" >
+  <h2 class="accordion-header" id="headingTwo">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      Renkler
+    </button>
+  </h2>
+  <div id="collapseTwo" class="accordion-collapse collapse " style="background-color: lightgray;" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <ul class="list-group">
+
+        <div class="form-check">
+          <input (click)="setCurrentColour(colour)" routerLink="/cars" class="form-check-input" type="radio" name="colour-radio-group">
+          <label class="form-check-label">
+            Bütün renkler
+          </label>
+        </div>
+
+        <div class="form-check" *ngFor="let colour of colours" name="colour-radio-group">
+          <input (click)="setCurrentColour(colour)" class="form-check-input" routerLink="/cars/colours/{{colour.colourId}}" type="radio" name="colour-radio-group">
+          <label class="form-check-label">
+            {{colour.colourName}}
+          </label>
+        </div>
+
+      </ul>
+    </div>
+  </div>
 </div>
-<table class="table" *ngIf="dataLoaded==true">
-  <thead>
-    <tr>
-      <th scope="col">Id</th>
-      <th scope="col">Marka Adı</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let colour of colours">
-      <td>{{colour.colourId}}</td>
-      <td>{{colour.colourName}}</td>
-    </tr>
-   
-  </tbody>
-</table>
+

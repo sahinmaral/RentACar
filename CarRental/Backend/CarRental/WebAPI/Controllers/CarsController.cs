@@ -1,16 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Business.Abstract;
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Business.Abstract;
-using Business.Concrete;
-using Core.DataAccess.EntityFramework;
 using Core.Utilities.Results;
-using DataAccess.Concrete.EntityFramework;
+
 using Entities.Concrete;
+
+using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers
 {
@@ -34,6 +28,30 @@ namespace WebAPI.Controllers
         public IActionResult GetCarDetails()
         {
             return GetResponseByResult(_carService.GetCarDetails());
+        }
+
+        [HttpGet("getcardetailsbycarid")]
+        public IActionResult GetCarDetailsByCarId(int carId)
+        {
+            return GetResponseByResult(_carService.GetCarDetailsByCarId(carId));
+        }
+
+        [HttpGet("getcarsbybrands")]
+        public IActionResult GetCarsByBrands(int brandId)
+        {
+            return GetResponseByResult(_carService.GetCarsByBrands(brandId));
+        }
+
+        [HttpGet("getcarsbybrandsandcolours")]
+        public IActionResult GetCarsByBrandsAndColours(int brandId,int colourId)
+        {
+            return GetResponseByResult(_carService.GetCarsByBrandsAndColours(brandId,colourId));
+        }
+
+        [HttpGet("getcarsbycolours")]
+        public IActionResult GetCarsByColours(int colourId)
+        {
+            return GetResponseByResult(_carService.GetCarsByColours(colourId));
         }
 
         [HttpGet("getbyid")]

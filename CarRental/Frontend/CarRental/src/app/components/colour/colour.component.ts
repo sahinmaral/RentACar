@@ -11,6 +11,8 @@ export class ColourComponent implements OnInit {
 
   colours : Colour[] = []
   dataLoaded = false
+  currentColour : Colour
+  colour : Colour
 
   constructor(private colourService : ColourService) { }
 
@@ -19,10 +21,28 @@ export class ColourComponent implements OnInit {
   }
 
   getColours(){
-    this.colourService.getCars().subscribe(response =>{
+    this.colourService.getColours().subscribe(response =>{
       this.colours = response.data;
       this.dataLoaded = response.success;
     })
+  }
+
+  setCurrentColour(colour : Colour){
+    this.currentColour = colour;
+  }
+  
+  getCurrentColourClass(colour:Colour){
+    if(colour == this.currentColour)
+    return "list-group-item list-group-item-action active"
+    else
+      return "list-group-item list-group-item-action"
+  }
+
+  getAllColourClass(colour:Colour){
+    if(colour != this.currentColour)
+    return "list-group-item list-group-item-action"
+    else
+      return "list-group-item list-group-item-action active"
   }
 
 }

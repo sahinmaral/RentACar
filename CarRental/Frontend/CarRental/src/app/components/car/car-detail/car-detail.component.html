@@ -1,0 +1,52 @@
+<div class="d-flex flex-row bd-highlight mb-3">
+<div class="col-md-7 d-flex">
+      <ul class="list-group pt-3 " style="width: 200px;">
+        <li class="list-group-item">Araba adı</li>
+        <li class="list-group-item">Markası</li>
+        <li class="list-group-item">Rengi</li>
+        <li class="list-group-item">Günlük kiralama ücreti</li>
+      </ul>
+      <ul class="list-group pt-3 px-3" style="width: 300px;" *ngFor="let car of carDetails">
+        <li class="list-group-item">{{car.carName}}</li>
+        <li class="list-group-item">{{car.brandName}}</li>
+        <li class="list-group-item">{{car.colourName}}</li>
+        <li class="list-group-item">{{car.dailyPrice}}</li>
+      </ul>
+    </div> 
+
+
+
+     <div class="col-md-5">
+      
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner" *ngIf="carImages">
+          <div class="carousel-item active" *ngIf="carImages[0]">
+            <img [src]="imageURL + carImages[0].imagePath" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" *ngIf="carImages[1]">
+            <img [src]="imageURL + carImages[1].imagePath" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" *ngIf="carImages[2]">
+            <img [src]="imageURL + carImages[2].imagePath" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" *ngIf="carImages[3]">
+            <img [src]="imageURL + carImages[3].imagePath" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" *ngIf="carImages[4]">
+            <img [src]="imageURL + carImages[4].imagePath" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      
+      </div> 
+</div>
+

@@ -1,18 +1,39 @@
-<div class="spinner-border m-2" role="status" *ngIf="dataLoaded==false">
-  <span class="visually-hidden">Loading...</span>
-</div>
-<table class="table" *ngIf="dataLoaded==true">
-  <thead>
-    <tr>
-      <th scope="col">Id</th>
-      <th scope="col">Marka Adı</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let brand of brands">
-      <td>{{brand.brandId}}</td>
-      <td>{{brand.brandName}}</td>
-    </tr>
 
-  </tbody>
-</table>
+
+<div class="accordion-item">
+  <h2 class="accordion-header" id="headingOne">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      Markalar
+    </button>
+  </h2>
+  <div id="collapseOne" class="accordion-collapse collapse" style="background-color: lightgray;" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+      <ul class="list-group">
+
+        <div class="form-check">
+          <input (click)="setCurrentBrand(brand)" routerLink="/cars" class="form-check-input" type="radio" name="brand-radio-group">
+          <label class="form-check-label">
+            Tümü
+          </label>
+        </div>
+
+        <div class="form-check" *ngFor="let brand of brands" name="brand-radio-group">
+          <input (click)="setCurrentBrand(brand)" routerLink="/cars/brands/{{brand.brandId}}" class="form-check-input"  type="radio" name="brand-radio-group">
+          <label class="form-check-label">
+            {{brand.brandName}}
+          </label>
+        </div>
+        
+
+      </ul>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+

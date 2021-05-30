@@ -1,23 +1,96 @@
+<div class="d-flex flex-row bd-highlight mb-3">
+
+
+<div class="col-md-3 mt-2" style="width:250px">
+
+  <div class="accordion" id="accordionExample">
+    <span class="d-block p-3 border bg-white text-dark">
+      Özellikler
+      </span>
+    </div>
+
+    <app-brand></app-brand>
+
+    <app-colour></app-colour>
+
+  
+
+  <div class="accordion" id="accordionExample">
+
+    <span class="d-block p-3 border bg-white text-dark">
+      <button type="button" (click)="setBrandAndColourValues(brandId,colourId)"class="btn btn-secondary">Ara</button>
+    </span>
+
+  </div>
+
+  
+  
+  
+
+</div>
+
+<div class="col-md-9">
+
 <div class="spinner-border m-2" role="status" *ngIf="dataLoaded==false">
   <span class="visually-hidden">Loading...</span>
 </div>
+
+<div class="ms-5">
+
+
 <table class="table" *ngIf="dataLoaded==true">
-    <thead>
-      <tr>
-        <th scope="col">Id</th>
-        <th scope="col">Araba Adı</th>
-        <th scope="col">Markası</th>
-        <th scope="col">Rengi</th>
-        <th scope="col">Günlük kiralama ücreti</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let car of cars">
-        <td>{{car.carId}}</td>
-        <td>{{car.carName}}</td>
-        <td>{{car.brandName}}</td>
-        <td>{{car.colourName}}</td>
-        <td>{{car.dailyPrice}}</td>
-      </tr> 
-    </tbody>
-  </table>
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Araba Adı</th>
+      <th scope="col">Markası</th>
+      <th scope="col">Rengi</th>
+      <th scope="col">Günlük kiralama ücreti</th>
+      <th scope="col">Detay</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let car of cars" (click)="setCurrentCar(car)" [class]="getCurrentCarClass(car)">
+      <td>{{car.carId}}</td>
+      <td>{{car.carName}}</td>
+      <td>{{car.brandName}}</td>
+      <td>{{car.colourName}}</td>
+      <td>{{car.dailyPrice}}</td>
+      <td><a class="btn btn-primary" routerLink="carDetails/{{car.carId}}" role="button">Arabanın detayı</a></td>
+    </tr> 
+  </tbody>
+</table>
+
+
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+<!-- <table class="table" *ngIf="dataLoaded==true">
+  <thead>
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Araba Adı</th>
+      <th scope="col">Markası</th>
+      <th scope="col">Rengi</th>
+      <th scope="col">Günlük kiralama ücreti</th>
+      <th scope="col">Detay</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let car of cars" (click)="setCurrentCar(car)" [class]="getCurrentCarClass(car)">
+      <td>{{car.carId}}</td>
+      <td>{{car.carName}}</td>
+      <td>{{car.brandName}}</td>
+      <td>{{car.colourName}}</td>
+      <td>{{car.dailyPrice}}</td>
+      <td><a class="btn btn-primary" routerLink="carDetails/{{car.carId}}" role="button">Arabanın detayı</a></td>
+    </tr> 
+  </tbody>
+</table> -->
